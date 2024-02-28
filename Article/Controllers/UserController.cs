@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.TagHelpers;
+﻿using Article.Models.Entities;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Article.Controllers
 {
@@ -10,7 +10,14 @@ namespace Article.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Register(UserInformationModel User)
         {
             return View();
         }

@@ -4,3 +4,43 @@
 @{
     ViewData["Title"] = "Register";
 }
+
+@model Article.Models.Entities.UserInformationModel
+
+<form method="post">
+    <div class="mt-3">
+        <label class="form-label">User Name</label>
+        <input type="text" class="form-control" asp-for="UserName" />
+    </div>
+    <div class="mt-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" asp-for="Password" />
+    </div>
+    <div class="mt-3">
+        <label class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" asp-for="ConfirmPassword" />
+    </div>
+    <div class="mt-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" asp-for="Email" />
+    </div>
+    <div class="mt-3">
+        <label class="form-label">First Name</label>
+        <input type="text" class="form-control" asp-for="FirstName" />
+    </div>
+    <div class="mt-3">
+        <label class="form-label">Last Name</label>
+        <input type="text" class="form-control" asp-for="LastName" />
+    </div>
+    <div class="mt-3">
+        <label class="form-label">Birth Day</label>
+        <input type="date" class="form-control" asp-for="BirthDay" />
+    </div>
+    <div class="mt-3">
+        <label class="form-label">Phone Number</label>
+        <input type="text" class="form-control" asp-for="PhoneNumber" />
+    </div>
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Register</button>
+    </div>
+</form>
