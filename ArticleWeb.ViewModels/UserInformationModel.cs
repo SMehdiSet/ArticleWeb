@@ -4,7 +4,7 @@ namespace ArticleWeb.ViewModels
 {
     public class UserInformationModel
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
 
         [Display(Name = "User Name")]
         [Required(ErrorMessage = "User Name is a required field.")]
@@ -35,7 +35,7 @@ namespace ArticleWeb.ViewModels
 
         [Display(Name = "Birth Day")]
         [DataType(DataType.DateTime)]
-        public DateTime BirthDay { get; set; }
+        public DateTime? BirthDay { get; set; }
 
         [Display(Name = "Phone Number")]
         [DataType(DataType.PhoneNumber)]
