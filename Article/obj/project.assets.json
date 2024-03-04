@@ -1501,6 +1501,16 @@
             "rid": "win"
           }
         }
+      },
+      "ArticleWeb.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ArticleWeb.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ArticleWeb.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -4074,10 +4084,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ArticleWeb.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../ArticleWeb.ViewModels/ArticleWeb.ViewModels.csproj",
+      "msbuildProject": "../ArticleWeb.ViewModels/ArticleWeb.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ArticleWeb.ViewModels >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.2"
@@ -4108,7 +4124,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\VS\\Project\\ArticleWeb\\ArticleWeb.ViewModels\\ArticleWeb.ViewModels.csproj": {
+              "projectPath": "F:\\VS\\Project\\ArticleWeb\\ArticleWeb.ViewModels\\ArticleWeb.ViewModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,4 +1,4 @@
-﻿using Article.Models.Entities;
+﻿using ArticleWeb.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Article.Controllers

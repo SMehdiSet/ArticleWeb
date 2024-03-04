@@ -1,0 +1,12 @@
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\bin\Debug\net8.0\ArticleWeb.ViewModels.deps.json
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\bin\Debug\net8.0\ArticleWeb.ViewModels.dll
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\bin\Debug\net8.0\ArticleWeb.ViewModels.pdb
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\obj\Debug\net8.0\ArticleWeb.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\obj\Debug\net8.0\ArticleWeb.ViewModels.AssemblyInfoInputs.cache
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\obj\Debug\net8.0\ArticleWeb.ViewModels.AssemblyInfo.cs
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\obj\Debug\net8.0\ArticleWeb.ViewModels.csproj.CoreCompileInputs.cache
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\obj\Debug\net8.0\ArticleWeb.ViewModels.sourcelink.json
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\obj\Debug\net8.0\ArticleWeb.ViewModels.dll
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\obj\Debug\net8.0\refint\ArticleWeb.ViewModels.dll
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\obj\Debug\net8.0\ArticleWeb.ViewModels.pdb
+F:\VS\Project\ArticleWeb\ArticleWeb.ViewModels\obj\Debug\net8.0\ref\ArticleWeb.ViewModels.dll

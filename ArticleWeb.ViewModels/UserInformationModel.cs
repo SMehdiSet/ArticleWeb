@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Article.Models.Entities
+namespace ArticleWeb.ViewModels
 {
     public class UserInformationModel
     {

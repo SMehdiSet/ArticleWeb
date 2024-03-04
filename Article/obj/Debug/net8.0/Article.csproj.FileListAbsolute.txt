@@ -135,3 +135,5 @@ F:\VS\Project\ArticleWeb\Article\obj\Debug\net8.0\refint\Article.dll
 F:\VS\Project\ArticleWeb\Article\obj\Debug\net8.0\Article.pdb
 F:\VS\Project\ArticleWeb\Article\obj\Debug\net8.0\Article.genruntimeconfig.cache
 F:\VS\Project\ArticleWeb\Article\obj\Debug\net8.0\ref\Article.dll
+F:\VS\Project\ArticleWeb\Article\bin\Debug\net8.0\ArticleWeb.ViewModels.dll
+F:\VS\Project\ArticleWeb\Article\bin\Debug\net8.0\ArticleWeb.ViewModels.pdb
