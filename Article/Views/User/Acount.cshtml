@@ -5,4 +5,59 @@
     ViewData["Title"] = "Acount";
 }
 
-<h1 class="text-primary"></h1>
+@model ArticleWeb.ViewModels.UserInformationModel
+
+<h1 class="text-primary">Edit Acount</h1>
+
+<form method="post">
+    <div class="mt-3">
+        <label class="form-label" asp-for="UserName"></label>
+        <input type="text" class="form-control" asp-for="UserName" readonly/>
+        <span class="text-danger" asp-validation-for="UserName"></span>
+    </div>
+    <div class="mt-3">
+        <label class="form-label" asp-for="Password"></label>
+        <input type="password" class="form-control" asp-for="Password" />
+        <span class="text-danger" asp-validation-for="Password"></span>
+    </div>
+    <div class="mt-3">
+        <label class="form-label" asp-for="ConfirmPassword"></label>
+        <input type="password" class="form-control" asp-for="ConfirmPassword" />
+        <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+    </div>
+    <div class="mt-3">
+        <label class="form-label" asp-for="Email"></label>
+        <input type="email" class="form-control" asp-for="Email" />
+        <span class="text-danger" asp-validation-for="Email"></span>
+    </div>
+    <div class="mt-3">
+        <label class="form-label" asp-for="FirstName"></label>
+        <input type="text" class="form-control" asp-for="FirstName" />
+        <span class="text-danger" asp-validation-for="FirstName"></span>
+    </div>
+    <div class="mt-3">
+        <label class="form-label" asp-for="LastName"></label>
+        <input type="text" class="form-control" asp-for="LastName" />
+        <span class="text-danger" asp-validation-for="LastName"></span>
+    </div>
+    <div class="mt-3">
+        <label class="form-label" asp-for="BirthDay"></label>
+        <input type="date" class="form-control" asp-for="BirthDay" />
+        <span class="text-danger" asp-validation-for="BirthDay"></span>
+    </div>
+    <div class="mt-3">
+        <label class="form-label" asp-for="PhoneNumber"></label>
+        <input type="text" class="form-control" asp-for="PhoneNumber" />
+        <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+    </div>
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Edit</button>
+    </div>
+</form>
+
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

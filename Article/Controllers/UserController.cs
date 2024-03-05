@@ -33,7 +33,7 @@ namespace Article.Controllers
                 _applicationDbContext.UserInformationDb.Add(User);
                 _applicationDbContext.SaveChanges();
 
-                return RedirectToAction("Acount");
+                return RedirectToAction("Acount", User.Id);
             }
             return View();
         }
@@ -43,9 +43,24 @@ namespace Article.Controllers
             return View();
         }
 
-        public IActionResult Acount()
+        [HttpGet]
+        public IActionResult Acount(Guid Id)
         {
-            return View();
+            var user = _applicationDbContext.UserInformationDb.Find(Id);
+            return View(user);
+        }
+
+        [HttpPost]
+        public IActionResult Acount(UserInformationModel User)
+        {
+            if (ModelState.IsValid)
+            {
+                _applicationDbContext.UserInformationDb.Update(User);
+                _applicationDbContext.SaveChanges();
+
+                return View();
+            }
+            return RedirectToAction("Login");
         }
     }
 }
