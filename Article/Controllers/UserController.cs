@@ -33,7 +33,7 @@ namespace Article.Controllers
                 _applicationDbContext.UserInformationDb.Add(User);
                 _applicationDbContext.SaveChanges();
 
-                return RedirectToAction("Acount", User.Id);
+                return Redirect($"/User/acount/{User.Id}");
             }
             return View();
         }
@@ -57,7 +57,7 @@ namespace Article.Controllers
                         Id = user.Id;
                     }
                 }
-                return RedirectToAction("Acount", Id);
+                return Redirect($"/User/acount/{Id}");
             }
             return View();
         }
