@@ -38,8 +38,27 @@ namespace Article.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Login()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(UserLoginModel User)
+        {
+            if (ModelState.IsValid)
+            {
+                Guid Id = Guid.Empty;
+                foreach(var user in _applicationDbContext.UserInformationDb)
+                {
+                    if (user.UserName == User.UserName &&  user.Password == User.Password)
+                    {
+                        Id = user.Id;
+                    }
+                }
+                return RedirectToAction("Acount", Id);
+            }
             return View();
         }
 
